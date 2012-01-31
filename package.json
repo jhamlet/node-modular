@@ -1,0 +1,21 @@
+{   
+    "name": "auto-module",
+    "description": "Automatically turn a directory of files into an exported module structure.",
+    "version": "0.0.1",
+    "keywords": ["module", "auto"],
+    "main": "./lib/auto-module.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jhamlet/auto-module/raw/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jhamlet/auto-module.git"
+    },
+    "preferGlobal": true
+}
