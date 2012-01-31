@@ -3,7 +3,6 @@
 var should = require("should");
 
 suite("AutoModule Test #1", function () {
-    // var mod = require("../")(__dirname + "/test-mod");
     var mod = require("./test-mod");
     
     test("Module should be an object", function () {
