@@ -1,6 +1,6 @@
 {   
     "name": "auto-module",
-    "description": "Automatically turn a directory of files into an exported module structure.",
+    "description": "Automatically turn a directory of files into an exported node module structure.",
     "version": "0.0.1",
     "keywords": ["module", "auto"],
     "main": "./lib/auto-module.js",
