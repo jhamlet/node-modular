@@ -1,9 +1,9 @@
 {   
-    "name": "auto-module",
+    "name": "modular",
     "description": "Automatically turn a directory of files into an exported node module structure.",
-    "version": "0.0.2",
-    "keywords": ["module", "auto"],
-    "main": "./lib/auto-module.js",
+    "version": "0.0.3",
+    "keywords": ["module", "auto", "require", "directory"],
+    "main": "./lib/index.js",
     "directories": {
         "lib": "lib"
     },
@@ -17,12 +17,12 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "http://github.com/jhamlet/auto-module/raw/master/LICENSE"
+            "url": "http://github.com/jhamlet/node-modular/raw/master/LICENSE"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "http://github.com/jhamlet/auto-module.git"
+        "url": "http://github.com/jhamlet/node-modular.git"
     },
     "preferGlobal": true
 }
