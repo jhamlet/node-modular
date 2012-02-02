@@ -23,7 +23,7 @@ module.exports = require("modular")([src], [options]);
 `options`, if given, should be an object with one, or more, of the following properties:
 
 *   `recursive`: Whether or not to recursively turn sub-directories into **Modulars** also. Default is `true`.
-*   `keyFormatter`: A function to use to transform a filename into a property key. The default is to camel-case the file name by splitting the base filename (minus any extension) on a space, hyphen, or underscore, and then title casing all words but the first. i.e:
+*   `keyFormatter`: A function to use to transform a filename into a property key. The default is to camel-case the file name by splitting the base filename (minus any extension) on whitespace or a hyphen, and then title case all words after first. i.e:
 
         "my-foo-function" => "myFooFunction"
         "My-Base-Class" => "MyBaseClass"
