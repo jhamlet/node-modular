@@ -81,7 +81,7 @@ The actual property is not resolved (the underlying file `required`) until it is
 }
 ~~~
 
-After `foo` and `bar` are accessed, it would look like this:
+After `foo` and `fooBar` are accessed, it would look like this:
 
 ~~~js
 {
