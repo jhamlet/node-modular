@@ -2,7 +2,7 @@
     "name": "modular",
     "description": "Automatically turn a directory of files into an exported node module structure.",
     "version": "0.0.4",
-    "keywords": ["module", "auto", "require", "directory"],
+    "keywords": ["module", "auto", "require", "directory", "folder"],
     "main": "./lib/index.js",
     "directories": {
         "lib": "lib"
